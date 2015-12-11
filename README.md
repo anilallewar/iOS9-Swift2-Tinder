@@ -26,7 +26,7 @@ Swift 2, Facebook integration and Parse BaaS application that allow users to
 4. Facebook setup
   1. You can continue to use the existing facebook integration made with my id.
   2. If you need to create your own Facebook app for integration
-    1. Login in to `https://developers.facebook.com/` and add a new app.
+    1. Login in to [Facebook Developers](https://developers.facebook.com/) and add a new app.
     2. Goto the "Settings" screen and add your email id, bundle id of your application which should be the same as the bundle identifier of your XCode project.
     3. Goto the "Status & Review" screen and make the app and all it's live features available to the public.
     4. Add the Facebook FBSDKCoreKit.framework and FBSDKLoginKit.framework bundles to the application; they are already bundled with this application.
