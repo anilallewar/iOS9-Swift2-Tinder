@@ -23,6 +23,7 @@ Swift 2, Facebook integration and Parse BaaS application that allow users to
         Parse.setApplicationId("<<Your_Application_Id>>",
             clientKey: "<<Your_client_key>>")
 ```
+
 4. Facebook setup
   1. You can continue to use the existing facebook integration made with my id.
   2. If you need to create your own Facebook app for integration
@@ -31,7 +32,9 @@ Swift 2, Facebook integration and Parse BaaS application that allow users to
     3. Goto the "Status & Review" screen and make the app and all it's live features available to the public.
     4. Add the Facebook FBSDKCoreKit.framework and FBSDKLoginKit.framework bundles to the application; they are already bundled with this application.
     5. Open the `info.plist` file and make changes to the following entries based on your Facebook app.
-            ```
+
+            ``` 
+            
             <key>CFBundleURLTypes</key>
             <array>
                 <dict>
@@ -55,8 +58,8 @@ Swift 2, Facebook integration and Parse BaaS application that allow users to
                 <true/>
             </dict>
             ```
-            
-            **Note:** *Add the entries through info.plist at the end; don't copy-paste it in the source file. If the entries don't stay in order they create arbitary probles*
+---            
+**Note:** *Add the entries through info.plist at the end; don't copy-paste it in the source file. If the entries don't stay in order they create arbitary problems*
 
 5. Build and run the application on the XCode simulator to signup using Facebook and enjoy the app!
 6. You might need to click on the login button again after initially providing the facebook credentials.
